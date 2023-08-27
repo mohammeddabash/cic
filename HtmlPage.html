@@ -1,0 +1,1241 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>cic</title>
+
+    <style type="text/css">
+        body {
+            height: 1440px;
+            width: 1000px;
+            background: url(photos/bg1.png) no-repeat;
+            background-size: cover;
+            margin: 0px;
+            margin-bottom: 0px;
+            position: absolute;
+            top: 0px;
+        }
+         .eng {
+            height: 15px;
+            width: 19px;
+            position: absolute;
+            top: 3px;
+            left: 450px;
+        }
+
+
+        .ad1{height:60px;width:468px;background-color:white;position:absolute;top:60px;left:312px;color:black;text-align:center;font-size:small;}
+
+      
+
+            .ul {
+                list-style-type: none;
+            }
+
+                .ul li {
+                    width:82px;
+                    height: 50px;
+                    background-color: black;
+                    color: white;
+                    text-align: center;
+                    font-weight: bold;
+                    line-height: 50px;
+                    float: left;
+                    border-left: solid 0px white;
+                }
+
+                    .ul li:hover {
+                        background-color:#73eb14;
+                    }
+
+                    .ul li ul {
+                        visibility: hidden;
+                        list-style-type:none
+                    }
+
+                    .ul li:hover ul {
+                        visibility: visible;
+                    }
+
+                    .ul li ul{
+                        height:300px;width:120px;
+                        background-color:#c5ef17;
+                        position: relative;
+                        right: 50px;
+                    }
+
+                        .ul li ul li {
+                            width:120px;
+                            color:black;
+                            font-size:large;
+                         border-left:solid 0px black;
+                            background-color: #c5ef17;
+                            text-align:left
+                        }
+
+                            .ul li ul li:hover {
+                                background-color: #c5ef17;
+                            }
+
+                            
+
+
+        .divsearch {
+            width:150px;
+            height: 50px;
+            background-color:black;
+            position:absolute;
+            top:125px;
+            float:right;
+            right:12px;
+        }
+
+        .search {
+            width: 150px;
+            height: 20px;
+            position: absolute;
+            top: 138px;
+            float: right;
+            right: 12px;
+            background-color:gray;
+        }
+
+        .ul li ul li a{text-decoration:none;}
+
+        .photo1 {
+            position:absolute;
+            top:190px;
+            left:100px;
+            width: 600px;
+            height: 350px;
+            border: solid 6px gray;
+            background-image: url(photos/images/images.jpg);
+            background-repeat:no-repeat;
+            background-size:cover;
+            visibility:visible;
+           
+        }
+
+        .site {
+            width: 800px;
+            height: 900px;
+            background-color:white;
+            margin-left:auto;
+            margin-right: auto;
+            margin-top: 190px;
+        }
+
+
+
+    .site .placeholder{width:184px;height:357px;background-color:white;border:solid 2px black;position:relative;top:-997px; float:right}
+
+    .site .placeholder .up{width:184px;height:77px;background-color:ButtonText;border:solid 1px gray;border-bottom:solid 2px gray}
+
+        .site .placeholder .up img{height:76px;width:91px;}
+
+
+
+        .site .placeholder .down {
+            height: 279px;
+            width: 184px;
+            background-color: #eaeaea;
+            border: solid 1px #e1e2e3;
+        }
+
+        .img {
+            width: 100%;
+            height: 126px;
+      position:relative;  
+     top:-30px
+
+        }
+
+        .box {
+            height: 35px;
+            width: 41px;
+            background-color: #ededed;
+            border: solid 2px #d4d5d7;
+            float:left;
+            position:relative;
+            top:-30px
+        }
+
+
+        .days {
+            height: 28px;
+            width: 32px;
+            background-color: #cccccc;
+            border-right: solid 2px white;
+            float: right;
+            position: relative;
+            top: -25px;
+        }
+
+
+        .hours {
+            height: 28px;
+            width: 32px;
+            background-color: #cccccc;
+            border-right: solid 2px white;
+            float: right;
+            position: relative;
+            top: -25px;
+        }
+
+        .min {
+            height: 28px;
+            width: 32px;
+            background-color: #cccccc;
+            border-right: solid 2px white;
+            float: right;
+            position: relative;
+            top: -25px;
+        }
+
+
+
+        .sec {
+            height: 28px;
+            width: 32px;
+            background-color: #cccccc;
+            border-right: solid 2px white;
+            float: right;
+            position:relative;
+            top:-25px;
+        }
+
+        .endfooter {
+            height:250px;
+            width: 800px;
+            margin:auto;
+            background-color: #303030;
+        }
+
+        .endfooter a img{width:100px;height:225px;position:relative;top:10px;left:10px;float:left}
+
+
+        .category {
+            color: white;
+            float: left;
+            position: relative;
+            top:-100px;
+            left:35px;
+        }
+
+            .category a{
+                color: #545454;
+text-decoration:none;
+            }
+
+
+
+
+        .placeholder3 {
+            float: left;
+            width:118.2px;
+            height: 55px; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+53,f6f6f6+100 */
+            background: #ffffff; /* Old browsers */
+            background: -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 50%, #e1e1e1 53%, #f6f6f6 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, #ffffff 0%,#f1f1f1 50%,#e1e1e1 53%,#f6f6f6 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, #ffffff 0%,#f1f1f1 50%,#e1e1e1 53%,#f6f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+            color: black;
+            position: relative;
+            top: 365px;
+
+            border:solid 2px gray;
+        }
+
+
+   .placeholder4{height:22px;width:100%;background-color:black;color:white;text-align:left; font-size:large;
+position:relative;top:425px;left:0px;
+  }
+
+        .placehldershopbyage {
+            height: 110px;
+            width: 100%;
+            position: relative;
+            background-color: #ffffff;
+            color:gray;
+            top:425px;
+        }
+
+        plaseholderbrands{width:550px;height:105px;background-color:white;margin:auto;position:relative;top:550px}
+
+
+        .newproductstitleplace {
+            height: 22px;
+            width:560px;
+            background-color: black;
+            color: white;
+            text-align: left;
+            font-size: large;
+            position: relative;
+            top: 410px;
+            text-align:end;
+            margin:auto;
+        }
+
+
+        .newproductsplace{height:308px;width:558px;background-color:white;position:relative;top:415px;left:122px;}
+     
+
+
+
+       
+
+                       
+
+            
+    </style>
+</head>
+<body>
+    <a href="#">
+        <h4 style="position:absolute;top:1px;left:180px;color:green;margin:0px;">Sign in |</h4>
+    </a>
+
+    <a href="#">
+        <h4 style="position:absolute;top:1px;left:250px;color:black;margin:0px;">Sign up |</h4>
+    </a>
+
+    <a href="#">
+        <h4 style="position:absolute;top:1px;left:320px;color:black;margin:0px;">Site map |</h4>
+    </a>
+
+    <a href="#">
+        <h4 style="position:absolute;top:1px;left:400px;color:black;margin:0px;">Help |</h4>
+    </a>
+
+    <a class="eng"href="#">
+        <img src="photos/images/index_03.gif" />
+    </a>
+
+
+    <a style="width:15px;height:17px;position:absolute;top:2px;left:652px;" href="#">
+        <img src="photos/images/sm/images/sm1.jpg" />
+    </a>
+
+    <a style="width:15px;height:17px;position:absolute;top:2px;left:670px;" href="#">
+        <img src="photos/images/sm/images/sm2.jpg" />
+    </a>
+
+    <a style="width:15px;height:17px;position:absolute;top:2px;left:690px;" href="#">
+        <img src="photos/images/sm/images/sm3.jpg" />
+    </a>
+
+
+    <a style="width:15px;height:17px;position:absolute;top:2px;left:708px;" href="#">
+        <img src="photos/images/sm/images/sm5.jpg" />
+    </a>
+
+    <a style="width:15px;height:17px;position:absolute;top:2px;left:728px;" href="#">
+        <img src="photos/images/sm/images/sm6.jpg" />
+    </a>
+
+    <a style="width:15px;height:17px;position:absolute;top:2px;left:745px;" href="#">
+        <img src="photos/images/sm/images/sm7.jpg" />
+    </a>
+
+
+
+
+    <img style="position:absolute;top:2px;float:right;right:20px;height:38px;width:165px;" src="photos/images/images/inbox_02.jpg" />
+
+    <div class="ad1">468*60</div>
+
+
+    <ul class="ul">
+        <!--1----------------------------------------------------------------->
+        <li style="position:absolute;top:125px;left:100px;">
+            home
+            <ul style="position:relative;">
+                <li><a href="#">
+    home
+</a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        
+                        home
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                      
+                        home
+                    </a>
+                </li>
+            </ul>
+
+        </li>
+
+
+        <!--2----------------------------------------------------------------->
+        <li style="position:absolute;top:125px;left:182px;">
+            product
+            <ul>
+                <li><a href="#"> product</a></li>
+
+                <li><a href="#"> product</a></li>
+                <li><a href="#"> product</a></li>
+</ul>
+
+        </li>
+
+
+        <!--3----------------------------------------------------------------->
+        <li style="position:absolute;top:125px;left:264px;">
+          cicel-family
+            <ul>
+               <li><a href="#">miss cecil</a></li>
+                <li><a href="#"> cecil</a></li>
+                <li> <a href="#">captain cecil</a></li> 
+               <li><a href="#"> professor cecil</a></li>
+                <li><a href="#">cecil academy</a></li>
+                <li><a href ="#"> cecil surprice</a></li>
+            </ul>
+
+        </li>
+
+
+
+
+
+        <!--4----------------------------------------------------------------->
+        <li style="position:absolute;top:125px;left:346px;">
+            parent clup
+            <ul>
+                <li><a href="#">  parent clup</a>
+                  
+                </li>
+
+                <li>
+                    <a href="#">  parent clup</a>
+
+                </li>
+
+           
+            </ul>
+
+        </li>
+
+
+
+
+
+        <!--5----------------------------------------------------------------->
+        <li style="position:absolute;top:125px;left:428px;">
+            our brand
+            <ul>
+                <li><a href="#">
+    our brand
+</a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        our brand
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        our brand
+                    </a>
+                </li>
+
+            </ul>
+
+        </li>
+
+
+        <!--6----------------------------------------------------------------->
+        <li style="position:absolute;top:125px;left:510px;">
+            our store
+            <ul>
+                <li>
+                    <a href="#">
+                        our store
+                    </a>
+                    </li>
+                <li>
+                    <a href="#">
+                        our store
+                    </a>
+                    </li>
+
+                <li>
+                    <a href="#">
+                        our store
+                    </a></li>
+</ul>
+
+        </li>
+
+
+
+
+        <!--7----------------------------------------------------------------->
+        <li style="position:absolute;top:125px;left:592px;">
+            offers cecil
+            <ul>
+                <li><a href="#">
+    offers cecil
+</a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        offers cecil
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        offers cecil
+                    </a>
+                </li>
+            </ul>
+
+        </li>
+
+
+
+
+        <!--8----------------------------------------------------------------->
+        <li style="position:absolute;top:125px;left:674px;">
+            about us
+            <ul>
+                <li><a href="#">
+    about us
+</a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        about us
+                    </a>
+                </li>
+
+                <li>
+                    <a>
+                        about us
+                    </a>
+                </li>
+            </ul>
+
+        </li>
+        
+        
+        
+        <!--9----------------------------------------------------------------->
+        <li style="position:absolute;top:125px;left:756px;">
+            contact us
+            <ul>
+                <li><a href="#">
+    contact us
+</a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        contact us
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="#">
+                        contact us
+                    </a>
+                </li>
+            </ul>
+
+        </li>
+
+
+
+    </ul>
+
+    <div class="divsearch"></div>
+
+    <textarea class="search"></textarea>
+
+    <!--siteeeeeeeeeeeeeeee-->
+    <div class="site">
+
+        <div class="photo1">
+
+
+            <div style="height:24px;width:24px;position:absolute;top:160px;left:570px">
+                <a href="#">
+                    <img src="photos/images/images/ar_03.png" />
+                </a>
+            </div>
+
+            <div style="height:24px;width:24px;position:absolute;top:160px;left:15px">
+                <a href="#">
+                    <img src="photos/images/images/ar_05.png" />
+                </a>
+
+
+            </div>
+            <h3 style="position:absolute;top:250px">
+                Is This a Pregnancy Symptom?
+            </h3>
+
+            <a href="#" style="text-decoration: none; color: #c5ef17; position: absolute; top: 290px">more read</a>
+        </div>
+        <a href="#">
+            <div class="placeholder3">
+                <h4 style="color: #669900;position:relative;top:-10px;text-align:center">Pregnancy </h4>
+                <p style="position:relative;top:-35px;text-align:center">details</p>
+            </div>
+        </a>
+
+
+        <a href="#">
+            <div class="placeholder3">
+                <h4 style="color: #fc0062; position: relative; top: -10px; text-align: center">naptime!  </h4>
+                <p style="position:relative;top:-35px;text-align:center">details</p>
+            </div>
+        </a>
+
+
+        <a href="#">
+            <div class="placeholder3">
+                <h4 style="color: #e8cd00; position: relative; top: -10px; text-align: center; ">Beauty tips </h4>
+
+                <p style="position:relative;top:-35px;text-align:center">details</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="placeholder3">
+                <h4 style="color: #00ccff; position: relative; top: -10px; text-align: center; ">baby names </h4>
+
+                <p style="position:relative;top:-35px;text-align:center">details</p>
+            </div>
+        </a>
+
+
+        <a href="#">
+            <div class="placeholder3">
+                <h4 style="color: #acd2d9; position: relative; top: -10px; text-align: center; ">getting pregnant</h4>
+
+                <p style="position:relative;top:-35px;text-align:center">details</p>
+            </div>
+        </a>
+
+
+        <div class="placeholder4"><h5> shop by Age</h5></div>
+
+        <div class="placehldershopbyage">
+            <b style="color: #999999;font-size:small;
+    float:left; position:relative;top:0px;left:-600px;">0-12 month</b>
+
+            <b style="color: #999999;font-size:small;
+    float:left; position:relative;top:0px;left:-550px;">12-24 month</b>
+
+            <b style="color: #999999;font-size:small;
+    float:left; position:relative;top:0px;left:-500px;">2 years</b>
+
+            <b style="color: #999999;font-size:small;
+    float:left; position:relative;top:-15px;left:-280px;">3-4 years</b>
+
+            <b style="color: #999999;font-size:small;
+    float:left; position:relative;top:-15px;left:-230px;">5-7 years</b>
+
+            <b style="color: #999999;font-size:small;
+    float:left; position:relative;top:-15px;left:-190px;">8-11 years</b>
+
+            <b style="color: #999999;font-size:small;
+float:left; position:relative;top:-30px;left:10px;">12-14 years</b>
+
+            <b style="color: #999999;font-size:small;
+    float:right; position:relative;top:-30px;right:20px">big kids</b>
+
+
+            <div style="width:80px;height:76px;position:relative;top:-25px">
+                <a href="#">
+                    <img src="photos/images/baby/images/el3da_12.jpg" />
+                </a>
+            </div>
+
+
+            <div style="width:80px;height:76px;position:relative;top:-52px;left:100px;">
+                <a>
+                    <img src="photos/images/baby/images/images/babyyyyyyyyyy_03.jpg" />
+                </a>
+
+            </div>
+
+
+
+
+            <div style="width:80px;height:76px;position:relative;top:-128px;left:200px">
+                <a href="#">
+                    <img src="photos/images/baby/images/el3da_14.jpg" />
+                </a>
+            </div>
+
+
+            <div style="width:80px;height:76px;position:relative;top:-205px;left:300px;">
+                <a href="#">
+                    <img src="photos/images/baby/images/el3da_16.jpg" />
+                </a>
+            </div>
+
+
+
+
+            <div style="width:80px;height:76px;position:relative;top:-280px;
+left:400px">
+  
+                <a>
+                    <img src="photos/images/baby/images/el3da_03.jpg" />
+
+                </a>
+            </div>
+
+
+
+            <div style="width:80px;height:76px;position:relative;top:-357px;left:500px">
+                <a href="#">
+                    <img src="photos/images/baby/images/baby_05.jpg" />
+                </a>
+            </div>
+
+
+            <div style="width:80px;height:76px;position:relative;top:-433px;left:600px">
+                <a href="#">
+                    <img src="photos/images/baby/images/el3da_07.jpg" />
+                </a>
+            </div>
+
+
+            <div style="width:80px;height:76px;position:relative;top:-510px;left:700px">
+                <a href="#">
+                    <img src="photos/images/baby/images/el3da_09.jpg" />
+                </a>
+            </div>
+
+
+        </div>
+
+
+        <a href="#">
+            <div style="height:60px;width:120px;position:relative;top:715px;float:right;
+right:0px;  background: url(photos/images/baby/images/ad_03.jpg)
+no-repeat ;background-size:cover"></div>
+        </a>
+
+
+        <a href="#">
+            <div style="height:60px;width:120px;position:relative;top:655px;float:right;
+right:-120px;  background: url(photos/images/baby/images/ad_03.jpg)
+no-repeat ;background-size:cover"></div>
+        </a>
+        
+        
+        
+        <a href="#">
+            <div style="height:60px;width:120px;position:relative;top:600px;float:right;
+right:-240px;  background: url(photos/images/baby/images/ad_03.jpg)
+no-repeat ;background-size:cover"></div>
+        </a>
+
+        <!--ad right 1-->
+
+        <a href="com">
+
+            <div style="background:
+    url(photos/images/baby/images/images/index_03.jpg) no-repeat;
+background-size:cover;height:175px;width:100px;position:relative;top:425px;float:right;
+right:-360px;">
+
+            </div>
+        </a>
+
+ 
+
+
+
+
+
+
+
+
+
+        <a href="#">
+            <img style="height:355px;width:120px;position:absolute;bottom:340px;left:100px" src="photos/images/images/ad2_03.jpg" />
+        </a>
+        
+    
+        
+        <!--products title-->
+        <div class="newproductstitleplace">
+           <p> NEW PRODUCTS </p>
+        <a href="#" style="height:11px;width:12px;position:relative;top:-38px;float:right;right:-300px">
+            <img src="photos/images/baby/images/images/images/ar8_07.png" />
+        </a>
+
+ <a href ="#"style="height:11px;width:12px;position:relative;top:-38px;float:right;right:-350px"
+    >
+                <img src="photos/images/baby/images/images/images/index_09.png" />
+
+                </a>
+
+</div>
+       
+        <!--products-->
+        <!--1
+            1
+            1
+            -->
+
+     
+
+        <div class=" newproductsplace">
+            <div style="height:99px;width:120px;background-color:white;border:solid 1px gray;position:relative;top:-20px;left:40px;float:left;clear:left">
+
+                <div style="width: 100px; height:70px; float: left; position: relative; left: 10px; top: -0px; background-color: #cccccc;">
+
+                </div>
+
+                <h5 style="text-decoration:underline;text-align:start;position:relative;bottom:-0px">Item Name</h5>
+                <h6 style="font-size: xx-small; color: darkred; position: relative; top:-20px">Price:50 LE</h6>
+
+
+                <a href="#" style="position: relative; bottom:60px;float:right">
+                    <img src="photos/images/pro_05.png" />
+                </a>
+
+
+
+
+
+
+
+                <a href="#" style="position: relative; bottom:60px; float: right">
+                    <img src="photos/images/pro_03.png" />
+                </a>
+
+
+            </div>
+
+
+
+
+
+            <!--1
+            2
+            2
+            2-->
+
+            <div style="height: 99px; width: 120px; background-color: white; border: solid 1px gray; position: relative; top: -10px; left: 40px; float: left; clear: left">
+
+                <div style="width: 100px; height:70px; float: left; position: relative; left: 10px; top: -0px; background-color: #cccccc;">
+                </div>
+
+                <h5 style="text-decoration:underline;text-align:start;position:relative;bottom:-0px">Item Name</h5>
+                <h6 style="font-size: xx-small; color: darkred; position: relative; top:-20px">Price:50 LE</h6>
+
+
+                <a href="#" style="position: relative; bottom: 60px; float: right">
+                    <img src="photos/images/pro_05.png" />
+                </a>
+
+
+
+
+
+
+
+                <a href="#" style="position: relative; bottom: 60px; float: right">
+                    <img src="photos/images/pro_03.png" />
+                </a>
+
+
+            </div>
+
+
+
+
+            <!--1
+            3
+            3
+            3
+            -->
+
+
+            <div style="height: 99px; width: 120px; background-color: white; border: solid 1px gray; position: relative; top: 2px; left: 40px; float: left; clear: left; ">
+
+                <div style="width: 100px; height:70px; float: left; position: relative; left: 10px; top: -0px; background-color: #cccccc;">
+                </div>
+
+                <h5 style="text-decoration:underline;text-align:start;position:relative;bottom:-0px">Item Name</h5>
+                <h6 style="font-size: xx-small; color: darkred; position: relative; top:-20px">Price:50 LE</h6>
+
+
+                <a href="#" style="position: relative; bottom: 60px; float: right; ">
+                    <img src="photos/images/pro_05.png" />
+                </a>
+
+
+
+
+
+
+
+                <a href="#" style="position: relative; bottom: 60px; float: right">
+                    <img src="photos/images/pro_03.png" />
+                </a>
+
+
+            </div>
+
+            <!--2
+                1
+                1
+                1
+                -->
+
+
+
+                <div style="height: 99px; width: 120px; background-color: white; border: solid 1px gray; position: relative; top: -322px; left: 212px; float: left; margin: auto; clear: left">
+
+                    <div style="width: 100px; height:70px; float: left; position: relative; left: 10px; top: -0px; background-color: #cccccc;">
+
+                    </div>
+
+                    <h5 style="text-decoration:underline;text-align:start;position:relative;bottom:-0px">Item Name</h5>
+                    <h6 style="font-size: xx-small; color: darkred; position: relative; top:-20px">Price:50 LE</h6>
+
+
+                    <a href="#" style="position: relative; bottom: 60px; float: right">
+                        <img src="photos/images/pro_05.png" />
+                    </a>
+
+
+
+
+
+
+
+                    <a href="#" style="position: relative; bottom: 60px; float: right">
+                        <img src="photos/images/pro_03.png" />
+                    </a>
+                </div>
+
+
+
+
+  <!--2
+      2
+      2
+      2
+      -->
+
+
+
+            <div style="height: 99px; width: 120px; background-color: white; border: solid 1px gray; position: relative; top: -312px; left: 212px; float: left; margin: auto; clear: left; ">
+
+                <div style="width: 100px; height:70px; float: left; position: relative; left: 10px; top: -0px; background-color: #cccccc;">
+
+                </div>
+
+                <h5 style="text-decoration:underline;text-align:start;position:relative;bottom:-0px">Item Name</h5>
+                <h6 style="font-size: xx-small; color: darkred; position: relative; top:-20px">Price:50 LE</h6>
+
+
+                <a href="#" style="position: relative; bottom: 60px; float: right">
+                    <img src="photos/images/pro_05.png" />
+                </a>
+
+
+
+
+
+
+
+                <a href="#" style="position: relative; bottom: 60px; float: right">
+                    <img src="photos/images/pro_03.png" />
+                </a>
+            </div>
+
+
+
+
+            <!--2
+    3
+    3
+    3
+    -->
+
+
+
+            <div style="height: 99px; width: 120px; background-color: white; border: solid 1px gray; position: relative; top: -302px; left: 212px; float: left; margin: auto; clear: left; ">
+
+                <div style="width: 100px; height:70px; float: left; position: relative; left: 10px; top: -0px; background-color: #cccccc;">
+
+                </div>
+
+                <h5 style="text-decoration:underline;text-align:start;position:relative;bottom:-0px">Item Name</h5>
+                <h6 style="font-size: xx-small; color: darkred; position: relative; top:-20px">Price:50 LE</h6>
+
+
+                <a href="#" style="position: relative; bottom: 60px; float: right; ">
+                    <img src="photos/images/pro_05.png" />
+                </a>
+
+
+
+
+
+
+
+                <a href="#" style="position: relative; bottom: 60px; float: right; ">
+                    <img src="photos/images/pro_03.png" />
+                </a>
+            </div>
+
+
+
+
+
+
+<!--3
+    1
+    1
+    1
+    -->
+
+
+
+            <div style="height:99px;width:120px;background-color:white;border:solid 1px gray;position:relative;top:-625px;left:390px;float:left;margin:auto;clear:left">
+
+                <div style="width: 100px; height:70px; float: left; position: relative; left: 10px; top: -0px; background-color: #cccccc;">
+
+                </div>
+
+                <h5 style="text-decoration:underline;text-align:start;position:relative;bottom:-0px">Item Name</h5>
+                <h6 style="font-size: xx-small; color: darkred; position: relative; top:-20px">Price:50 LE</h6>
+
+
+                <a href="#" style="position: relative; bottom: 60px; float: right; ">
+                    <img src="photos/images/pro_05.png" />
+                </a>
+
+
+
+
+
+
+
+                <a href="#" style="position: relative; bottom: 60px; float: right; ">
+                    <img src="photos/images/pro_03.png" />
+                </a>
+            </div>
+
+
+          
+
+            <!--3
+      2
+      2
+      2
+        -->
+
+
+
+            <div style="height: 99px; width: 120px; background-color: white; border: solid 1px gray; position: relative; top: -615px; left: 390px; float: left; margin: auto; clear: left; ">
+
+                <div style="width: 100px; height:70px; float: left; position: relative; left: 10px; top: -0px; background-color: #cccccc;">
+
+                </div>
+
+                <h5 style="text-decoration:underline;text-align:start;position:relative;bottom:-0px">Item Name</h5>
+                <h6 style="font-size: xx-small; color: darkred; position: relative; top:-20px">Price:50 LE</h6>
+
+
+                <a href="#" style="position: relative; bottom: 60px; float: right">
+                    <img src="photos/images/pro_05.png" />
+                </a>
+
+
+
+
+
+
+
+                <a href="#" style="position: relative; bottom: 60px; float: right">
+                    <img src="photos/images/pro_03.png" />
+                </a>
+            </div>
+
+
+
+          
+            <!--3
+    3
+    3
+    3
+      -->
+
+
+
+            <div style="height: 99px; width: 120px; background-color: white; border: solid 1px gray; position: relative; top: -605px; left: 390px; float: left; margin: auto; clear: left; ">
+
+                <div style="width: 100px; height:70px; float: left; position: relative; left: 10px; top: -0px; background-color: #cccccc;">
+
+                </div>
+
+                <h5 style="text-decoration:underline;text-align:start;position:relative;bottom:-0px">Item Name</h5>
+                <h6 style="font-size: xx-small; color: darkred; position: relative; top:-20px">Price:50 LE</h6>
+
+
+                <a href="#" style="position: relative; bottom: 60px; float: right">
+                    <img src="photos/images/pro_05.png" />
+                </a>
+
+
+
+
+
+
+
+                <a href="#" style="position: relative; bottom: 60px; float: right">
+                    <img src="photos/images/pro_03.png" />
+                </a>
+            </div>
+           
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <!--right site-->
+            <div class="placeholder">
+                <!--uppp-->
+                <div class="up">
+                    <img src="photos/images/images/n5la_03.jpg" style="border:solid 0px white" />
+
+
+                    <img src="photos/images/images/join-us_06.jpg" style="float:right;border:solid 0px white;" />
+                    <a href="#">
+                        <img style="height:18px;width:18px;float:right;position:relative;top:-30px;" src="photos/images/images/but_10.gif" />
+                    </a>
+                </div>
+
+                <div class="down">
+                    <h4 style="position:relative;top:-19px;float:left">deal of the day : </h4>
+                    <h4 style="color: #99cc33; position: relative; top: -19px; float: left">Title</h4>
+                    <img class="img" src="photos/images/images/hp_03.jpg" />
+
+                    <!--4 boxes-->
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+
+                    <!--h4-->
+                    <h4 style="position:relative;top:-30px">time left to buy this deal:</h4>
+
+
+
+
+                    <div style="font-size:x-small;text-align:center;position:relative;" class="sec"><p style="position:relative;top:-10px">57<br />sec</p></div>
+                    <div style="font-size:x-small;text-align:center;position:relative;" class="min"><p style="position:relative;top:-10px">55<br />min</p></div>
+                    <div style="font-size:x-small;text-align:center;position:relative;" class="hours"><p style="position:relative;top:-10px">05<br />hours</p></div>
+                    <div style="font-size:x-small;text-align:center;position:relative;" class="days"><p style="position:relative;top:-10px">00<br />days</p></div>
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+    <footer class="endfooter">
+        <a href="#" style="position:absolute;top:1100px;float:left;left:100px">
+            <img src="photos/images/images/last-ad_03.jpg" />
+        </a>
+
+        <h4 class="category">Category</h4>
+        <hr>
+        <br />
+        <a href="#" style="position: relative; left:35px; text-decoration: none; color: #545454" class="cecil">Cicel item</a><br />
+        <a href="#" style="position: relative; left: 35px; text-decoration: none; color: #545454; " class="cecil">Cicel item</a><br />
+        <a href="#" style="position: relative; left:36px; text-decoration: none; color: #545454" class="cecil">Cicel item</a><br />
+        <a href="#" style="position: relative; left: -27px; text-decoration: none; color: #545454" class="cecil">Cicel item</a><br />
+        <a href="#" style="position: relative; left: -27px; text-decoration: none; color: #545454" class="cecil">Cicel item</a><br />
+        <a href="#" style="position: relative; left: -27px; text-decoration: none; color: #545454" class="cecil">Cicel item</a><br />
+        <a href="#" style="position: relative; left: -27px; text-decoration: none; color: #545454" class="cecil">Cicel item</a><br />
+        <a href="#" style="position: relative; left: 37px; text-decoration: none; color: #545454; " class="cecil">Cicel item</a><br />
+        <a href="#" style="position: relative; left: 37px; text-decoration: none; color: #545454; " class="cecil">Cicel item</a><br />
+        <a href="#" style="position: relative; left: 160px; text-decoration: none; color: #545454" class="cecil">Cicel item</a><br />
+
+        <h4 style="position:absolute;top:1089px;left:375px; color:white;">Contact US</h4>
+        <p style="font-size: small; color: #545454;position:absolute;top:1120px;left:365px;">phone us for help planning </p>
+        <br />
+        <p style="font-size: small; color: #545454; position: absolute; top: 1135px; left: 365px;"> your trip </p>
+
+        <br />
+        <b style="font-size: small; color: #545454; position: absolute; top: 1170px; left: 365px;">country name</b>
+        <br />
+        <p style="font-size:medium; color: #545454; position: absolute; top: 1180px; left: 365px;">1234-5678</p>
+
+        <b style="font-size: small; color: #545454; position: absolute; top: 1220px; left: 365px;">country name</b>
+        <br />
+        <p style="font-size:medium; color: #545454; position: absolute; top: 1230px; left: 365px;">1234-5678</p>
+
+
+        <b style="font-size: small; color: #545454; position: absolute; top: 1270px; left: 365px;">E-mail us</b>
+        <br />
+        <p style="font-size:medium; color: #545454; position: absolute; top: 1280px; left: 365px;">info@cecil.com</p>
+
+
+        <p style="color: #cccccc;position:absolute; top:1300px;left:365px;">© Copyright 2012 - Oreanted</p>
+        <p style="color:white;position:absolute; left:650px;top:1089px">Subscribe to our newsletter</p>
+        <p style="font-size:x-small; color: #545454; position: absolute; left: 650px;top:1110px ">Subscribe to our newsletter and get exclusive deals you</p>
+        <br />
+        <p style="font-size:x-small;  color: #545454; position: absolute; left: 650px;top:1120px ">wont find anywhere else straight to your inbox</p>
+
+        <input type="email" placeholder="   enter your emaill address" style="background-color: #282828; position: absolute; left: 650px; top: 1150px; width: 240px; height: 25px; " />
+
+        <input id="Submit1" type="submit" value="subscribe" style="position: absolute; top: 1155px;left:820px" />
+        <ul>
+
+            <li style="list-style-image: url(photos/images/images/no_03.jpg);
+                   position: absolute; top: 1185px; left: 660px; color: #c14845; ">
+                please enter a valid email address
+            </li>
+
+            <li style="list-style-image: url(photos/images/images/no-or-yes_06.png); position: absolute; top: 1200px; left: 660px; color: #657441;">
+                thanks, your address has been added
+            </li>
+
+        </ul>
+
+
+    </footer>
+
+
+</body>
+</html>
